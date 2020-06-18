@@ -1,0 +1,1500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisioDocument>
+	<DocumentProperties>
+		<Title></Title>
+		<HyperlinkBase href=""></HyperlinkBase>
+	</DocumentProperties>
+	<Pages>
+		<Page ID="0" Name="Тема" NameU="Тема">
+			<Shapes>
+				<Shape ID="2" UniqueID="{26B02D5E-FB01-4794-851D-7483B7DAC029}" Name="Sheet.2" NameU="Sheet.2">
+					<Text>Тема: Обнаружение объектов по последовательности 
+радиолокационных  кадров</Text>
+					<XForm>
+						<PinX Unit="MM">16.929133858267715</PinX>
+						<PinY Unit="MM">20.669291338582674</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="3" UniqueID="{3EB1303E-CF9D-415B-9757-ABB4B64D06C9}" Name="Sheet.3" NameU="Sheet.3">
+					<Text>Цель: исследования состоит в синтезе  методов и алгоритмов обнаружения  сигналов отраженных от  объектов в сложной помеховой обстановке, в условиях априорной неопределенности геометрических параметров этих объектов.
+</Text>
+					<XForm>
+						<PinX Unit="MM">16.043307086614170</PinX>
+						<PinY Unit="MM">18.161417322834641</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="4" UniqueID="{A9DA82F8-4A01-453E-AC3A-93ED60A8A2A7}" Name="Sheet.4" NameU="Sheet.4">
+					<Text>Основные решаемые задачи:</Text>
+					<XForm>
+						<PinX Unit="MM">14.887795275590548</PinX>
+						<PinY Unit="MM">11.401574803149606</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="5" UniqueID="{50AED84F-25CF-4026-8609-BF7CDBEC7E47}" Name="Sheet.5" NameU="Sheet.5">
+					<Text>1.  Обнаружение  объектов в сложной помеховой обстановке.
+
+
+2.  Предложить методы оконтуривания  отметок от объектов.
+
+
+3.  Разработка программного обеспечения для проведения исследований.
+
+
+4. Сравнить разработанные методы и вынести рекомендации по их использованию
+
+
+
+
+
+</Text>
+					<XForm>
+						<PinX Unit="MM">17.937007874015748</PinX>
+						<PinY Unit="MM">6.102362204724411</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="6" UniqueID="{BF095DDE-6342-4ADB-ACDB-6D0DB2A37FA2}" Name="Sheet.6" NameU="Sheet.6">
+					<Text>Руководитель работ 																								к.т.н.,Жеребятьев Д.П.
+Харьков 2008 г.</Text>
+					<XForm>
+						<PinX Unit="MM">16.791248924084130</PinX>
+						<PinY Unit="MM">14.862204724409448</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+		<Page ID="5" Name="структурая схема РЛК" NameU="структурая схема РЛК">
+			<Shapes>
+				<Shape ID="1" UniqueID="{B6737AB7-C544-4253-9291-459111F017E7}" Name="Sheet.1" NameU="Sheet.1">
+					<XForm>
+						<PinX Unit="MM">16.484251968503937</PinX>
+						<PinY Unit="MM">12.462822118826056</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="2" UniqueID="{831DC440-FED3-4833-8A3E-876E1C899B04}" Name="Sheet.2" NameU="Sheet.2">
+					<Text>Структурная  схема  РЛК</Text>
+					<XForm>
+						<PinX Unit="MM">15.627952755905516</PinX>
+						<PinY Unit="MM">21.060039370078734</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="3" UniqueID="{2B61869A-E494-4BAF-8C4D-9AEC6B5CCA0C}" Name="Rectangle" NameU="Rectangle" Master="0">
+					<Text> Антенна</Text>
+					<XForm>
+						<PinX Unit="MM">3.690601174853143</PinX>
+						<PinY Unit="MM">10.669699156131381</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="5" UniqueID="{91121074-5B48-46C3-A51D-A069497FA869}" Name="Rectangle.3" NameU="Rectangle.3" Master="0">
+					<Text>Устройство формирования зондирующих импульсов</Text>
+					<XForm>
+						<PinX Unit="MM">9.841394825646793</PinX>
+						<PinY Unit="MM">15.564121466888352</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="6" UniqueID="{B2176C73-152D-44ED-9EBE-EB9BFEDE4C82}" Name="Rectangle.4" NameU="Rectangle.4" Master="0">
+					<Text>Устройство усиления и преобразования принимаемых сигналов</Text>
+					<XForm>
+						<PinX Unit="MM">9.841394825646793</PinX>
+						<PinY Unit="MM">4.143802741788752</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="7" UniqueID="{6C565C0B-B556-4489-B3B8-8AFC22C04A83}" Name="Rectangle.5" NameU="Rectangle.5" Master="0">
+					<Text>Устройство управления РЛК
+</Text>
+					<XForm>
+						<PinX Unit="MM">19.682664666916637</PinX>
+						<PinY Unit="MM">18.827069674059665</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="8" UniqueID="{3BB23F17-C6DE-4559-81C5-15E72A2D61C2}" Name="Rectangle.6" NameU="Rectangle.6" Master="0">
+					<Text>Устройство вторичной обработки информации</Text>
+					<XForm>
+						<PinX Unit="MM">19.682664666916637</PinX>
+						<PinY Unit="MM">11.213523857326601</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="9" UniqueID="{E334BD46-18CF-4A40-8DCB-B7FBF47A238D}" Name="Rectangle.7" NameU="Rectangle.7" Master="0">
+					<Text>Устройство первичной  обработки информации</Text>
+					<XForm>
+						<PinX Unit="MM">19.682664666916637</PinX>
+						<PinY Unit="MM">4.143802741788752</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="10" UniqueID="{5069B8DA-5142-4C3E-8FC4-0271D4951652}" Name="Rectangle.8" NameU="Rectangle.8" Master="0">
+					<Text>Устройство отображения и связи с потребителем</Text>
+					<XForm>
+						<PinX Unit="MM">28.047744031996007</PinX>
+						<PinY Unit="MM">11.213523857326601</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="11" UniqueID="{8CA47124-1F77-4DD2-9E76-D3DC15527617}" Name="Dynamic connector" NameU="Dynamic connector" Master="2">
+					<XForm>
+						<PinX Unit="MM">8.119172603424572</PinX>
+						<PinY Unit="MM">7.678663299557676</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="12" UniqueID="{DC601605-FC80-46DC-A258-5749ADE03594}" Name="Sheet.12" NameU="Sheet.12">
+					<Text>Информация 
+(сигнал+шум, азимутальное положение антенны)</Text>
+					<XForm>
+						<PinX Unit="MM">10.678727659042618</PinX>
+						<PinY Unit="MM">9.785984016689149</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="13" UniqueID="{B6DA4757-927D-47A1-A073-6BD444BD79A7}" Name="Dynamic connector.12" NameU="Dynamic connector.12" Master="2">
+					<XForm>
+						<PinX Unit="MM">14.762029746281714</PinX>
+						<PinY Unit="MM">4.143802741788752</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="14" UniqueID="{5744EBCD-4862-42A5-8116-43B37BAA4BB0}" Name="Dynamic connector.13" NameU="Dynamic connector.13" Master="2">
+					<XForm>
+						<PinX Unit="MM">19.682664666916637</PinX>
+						<PinY Unit="MM">7.678663299557677</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="15" UniqueID="{C4B67C95-AD0C-4374-B6B8-03F576D4825F}" Name="Dynamic connector.14" NameU="Dynamic connector.14" Master="2">
+					<XForm>
+						<PinX Unit="MM">25.341394825646798</PinX>
+						<PinY Unit="MM">6.591013897167239</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="16" UniqueID="{684524E3-A311-4812-90B2-1C84B43320CA}" Name="Dynamic connector.15" NameU="Dynamic connector.15" Master="2">
+					<XForm>
+						<PinX Unit="MM">10.210442444694413</PinX>
+						<PinY Unit="MM">16.107946168083572</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="17" UniqueID="{19ECE1A9-D37B-40F5-97F4-5EB814B21D02}" Name="Dynamic connector.18" NameU="Dynamic connector.18" Master="2">
+					<XForm>
+						<PinX Unit="MM">25.341394825646798</PinX>
+						<PinY Unit="MM">16.107946168083572</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="18" UniqueID="{7F5FCF5A-CC95-4141-B5B1-4FCCEF6E6C9E}" Name="Sheet.18" NameU="Sheet.18">
+					<Text>Управление</Text>
+					<XForm>
+						<PinX Unit="MM">6.150918635170603</PinX>
+						<PinY Unit="MM">19.370894375254885</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="19" UniqueID="{20D25D90-2A24-4A35-8F98-769720708A87}" Name="Dynamic connector.10" NameU="Dynamic connector.10" Master="2">
+					<XForm>
+						<PinX Unit="MM">8.119172603424572</PinX>
+						<PinY Unit="MM">12.783199699412799</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="20" UniqueID="{3BE6A5CC-FFA5-45B3-9584-DF2BAA871554}" Name="Dynamic connector.16" NameU="Dynamic connector.16" Master="2">
+					<XForm>
+						<PinX Unit="MM">15.254093238345204</PinX>
+						<PinY Unit="MM">16.311880431031778</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="21" UniqueID="{A46EEBEF-E7C4-4F2D-9C2F-1841C393549B}" Name="Dynamic connector.17" NameU="Dynamic connector.17" Master="2">
+					<XForm>
+						<PinX Unit="MM">19.682664666916637</PinX>
+						<PinY Unit="MM">15.230410854791286</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="22" UniqueID="{0D0EC8ED-43ED-48F2-8940-0217BC23990A}" Name="Dynamic connector.19" NameU="Dynamic connector.19" Master="2">
+					<XForm>
+						<PinX Unit="MM">22.512029746281716</PinX>
+						<PinY Unit="MM">16.311880431031778</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="23" UniqueID="{8D38B8F9-E25F-4745-A456-76A090F15C24}" Name="Dynamic connector.20" NameU="Dynamic connector.20" Master="2">
+					<XForm>
+						<PinX Unit="MM">23.129921259842515</PinX>
+						<PinY Unit="MM">10.334645669291339</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="24" UniqueID="{3016E018-98D9-450A-80CF-EC3068C98821}" Name="Dynamic connector.21" NameU="Dynamic connector.21" Master="2">
+					<XForm>
+						<PinX Unit="MM">23.865204349456324</PinX>
+						<PinY Unit="MM">11.213523857326601</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="25" UniqueID="{4E1467BA-4047-4655-AAB1-6864985C7E0A}" Name="Dynamic connector.23" NameU="Dynamic connector.23" Master="2">
+					<XForm>
+						<PinX Unit="MM">31.492188476440450</PinX>
+						<PinY Unit="MM">11.213523857326601</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+		<Page ID="4" Name="РЛС" NameU="РЛС">
+			<Shapes>
+				<Shape ID="1" UniqueID="{99322613-61C6-4E63-86F2-41E6DCB36A29}" Name="Sheet.1" NameU="Sheet.1">
+					<XForm>
+						<PinX Unit="MM">16.929133858267718</PinX>
+						<PinY Unit="MM">11.786310053910979</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="2" UniqueID="{85E28D02-9518-4356-9262-ACA4B7334A4E}" Name="Sheet.2" NameU="Sheet.2">
+					<Text>Схема РЛС кругового обзора</Text>
+					<XForm>
+						<PinX Unit="MM">16.141732283464567</PinX>
+						<PinY Unit="MM">21.653543307086615</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+		<Page ID="6" Name="Коэф. отражения" NameU="Коэф. отражения">
+			<Shapes>
+				<Shape ID="1" UniqueID="{91824CF6-DEC6-4780-ADA6-4F239F3D70F7}" Name="Sheet.1" NameU="Sheet.1">
+					<Text> Оценка  комплексного коэффициента рассеяния. 
+Обнаружение сигналов.</Text>
+					<XForm>
+						<PinX Unit="MM">11.811023622047244</PinX>
+						<PinY Unit="MM">22.440944881889767</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="2" UniqueID="{06F07471-97D4-46F1-8592-2FD5FE382CB3}" Name="Sheet.2" NameU="Sheet.2">
+					<XForm>
+						<PinX Unit="MM">27.263779527559052</PinX>
+						<PinY Unit="MM">18.700787401574804</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="19" UniqueID="{22A49460-1B38-49D0-856D-0367885B590E}" Name="Sheet.19" NameU="Sheet.19">
+					<Text>Обнаружение сигналов</Text>
+					<XForm>
+						<PinX Unit="MM">20.669291338582678</PinX>
+						<PinY Unit="MM">14.144595561918395</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="21" UniqueID="{025BE7BE-6B9A-4C1A-8DAE-EA2A88A8FBED}" Name="Sheet.21" NameU="Sheet.21">
+					<Text>Геометрия задачи</Text>
+					<XForm>
+						<PinX Unit="MM">24.724409448818900</PinX>
+						<PinY Unit="MM">15.098226998709336</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="31" UniqueID="{1086BBB5-682A-483A-A10E-7EED1B1E25F8}" Name="Sheet.31" NameU="Sheet.31">
+					<XForm>
+						<PinX Unit="MM">9.694881889763781</PinX>
+						<PinY Unit="MM">11.220472440944881</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="4" UniqueID="{5281EB20-2DD9-47C3-AB83-8F1FB40237D0}" Name="Sheet.4" NameU="Sheet.4">
+					<Text>Излучаемый сигнал задан в виде</Text>
+					<XForm>
+						<PinX Unit="MM">8.645423228346463</PinX>
+						<PinY Unit="MM">19.161793924491207</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="5" UniqueID="{F976AB07-C2C7-4BAD-861B-A1AC4E79E65A}" Name="Sheet.5" NameU="Sheet.5">
+					<Text>Полезный сигнал отраженный от поверхности:</Text>
+					<XForm>
+						<PinX Unit="MM">9.879712106299214</PinX>
+						<PinY Unit="MM">16.470640257664400</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="11" UniqueID="{7C0DA25E-5D87-4FC8-A592-8624EA8C0EFE}" Name="Sheet.11" NameU="Sheet.11">
+					<Text>Оптимальную оценку коэффициента рассеяния находим из условия максимума функционала правдоподобия </Text>
+					<XForm>
+						<PinX Unit="MM">8.661417322834652</PinX>
+						<PinY Unit="MM">9.961863394134113</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="23" UniqueID="{EB9161EB-D522-44E2-9138-4F6BAEA3AB3A}" Name="Sheet.23" NameU="Sheet.23">
+					<Text>(1)</Text>
+					<XForm>
+						<PinX Unit="MM">13.779527559055122</PinX>
+						<PinY Unit="MM">18.275967152837662</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="25" UniqueID="{64A0826F-6CB8-4585-84AD-35B9466DB6B6}" Name="Sheet.25" NameU="Sheet.25">
+					<Text>(2)</Text>
+					<XForm>
+						<PinX Unit="MM">13.681102362204728</PinX>
+						<PinY Unit="MM">15.565749601906528</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="26" UniqueID="{2EE8A30E-115D-4A16-801A-4F515E70B9EA}" Name="Sheet.26" NameU="Sheet.26">
+					<Text>(3)</Text>
+					<XForm>
+						<PinX Unit="MM">17.125984251968507</PinX>
+						<PinY Unit="MM">7.888584247575825</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="27" UniqueID="{43C54D79-669F-4146-880E-1FD81CAF7D17}" Name="Sheet.27" NameU="Sheet.27">
+					<Text>(4)</Text>
+					<XForm>
+						<PinX Unit="MM">17.125984251968507</PinX>
+						<PinY Unit="MM">5.920080310567946</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="28" UniqueID="{9F1B0085-8649-4D76-A891-A054C04852BD}" Name="Sheet.28" NameU="Sheet.28">
+					<Text>(5)</Text>
+					<XForm>
+						<PinX Unit="MM">17.125984251968507</PinX>
+						<PinY Unit="MM">4.050001570410466</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="47" UniqueID="{05B1FDBD-91CD-4DEA-8885-D791B05A2041}" Name="Sheet.47" NameU="Sheet.47">
+					<XForm>
+						<PinX Unit="MM">25.147637795275603</PinX>
+						<PinY Unit="MM">7.694535851074421</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="35" UniqueID="{B2639597-074D-4C90-B3A6-1D84FF362CF8}" Name="Sheet.35" NameU="Sheet.35">
+					<Text>Вероятности ложной тревоги </Text>
+					<XForm>
+						<PinX Unit="MM">27.559055118110251</PinX>
+						<PinY Unit="MM">13.638185875377188</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="36" UniqueID="{DE2A651E-807C-44DE-9B98-E84D839FD004}" Name="Sheet.36" NameU="Sheet.36">
+					<Text>правильного обнаружения </Text>
+					<XForm>
+						<PinX Unit="MM">27.362204724409459</PinX>
+						<PinY Unit="MM">11.899456109139390</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="29" UniqueID="{DABC3C93-4DA4-4F17-B039-659D377AEDF9}" Name="Sheet.29" NameU="Sheet.29">
+					<Text>(7)</Text>
+					<XForm>
+						<PinX Unit="MM">24.902608267716559</PinX>
+						<PinY Unit="MM">11.112054534336243</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="30" UniqueID="{A72B1264-58FA-4D31-9B1B-4391D80F45C6}" Name="Sheet.30" NameU="Sheet.30">
+					<Text>(6)</Text>
+					<XForm>
+						<PinX Unit="MM">24.902608267716559</PinX>
+						<PinY Unit="MM">13.080558471344117</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="38" UniqueID="{1857DAAA-3BBB-4ED7-B894-4A22FC7765D7}" Name="Sheet.38" NameU="Sheet.38">
+					<Text>(8)</Text>
+					<XForm>
+						<PinX Unit="MM">30.125787401574815</PinX>
+						<PinY Unit="MM">12.903393117013406</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="39" UniqueID="{36FBC383-B5FF-4671-9A91-FE0B81ADA64B}" Name="Sheet.39" NameU="Sheet.39">
+					<Text>(9)</Text>
+					<XForm>
+						<PinX Unit="MM">30.066732283464582</PinX>
+						<PinY Unit="MM">11.249849809926792</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="40" UniqueID="{80D1774F-03DA-4183-8D17-3FE950993BB8}" Name="Sheet.40" NameU="Sheet.40">
+					<Text>(10)</Text>
+					<XForm>
+						<PinX Unit="MM">31.850393700787414</PinX>
+						<PinY Unit="MM">9.675046660320493</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="43" UniqueID="{997100F0-F0AA-41A0-818A-9B1CF562BC0A}" Name="Sheet.43" NameU="Sheet.43">
+					<Text>Обнаружение полностью 
+известного сигнала</Text>
+					<XForm>
+						<PinX Unit="MM">20.866141732283488</PinX>
+						<PinY Unit="MM">5.738038786304744</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="45" UniqueID="{2353A152-1D2E-40DB-8F70-2548E3629C21}" Name="Sheet.45" NameU="Sheet.45">
+					<Text>Обнаружение сигналов с 
+неизвестной начальной фазой</Text>
+					<XForm>
+						<PinX Unit="MM">27.618110236220481</PinX>
+						<PinY Unit="MM">5.669141148509469</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="48" UniqueID="{A481A048-D3FE-4E64-9DBB-58FEED4660A7}" Name="Sheet.48" NameU="Sheet.48">
+					<Text>(11)</Text>
+					<XForm>
+						<PinX Unit="MM">23.818897637795281</PinX>
+						<PinY Unit="MM">4.084495479218129</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="49" UniqueID="{FEA789A2-F7B8-475A-995E-BDDAB78A82E1}" Name="Sheet.49" NameU="Sheet.49">
+					<Text>(12)</Text>
+					<XForm>
+						<PinX Unit="MM">31.791338582677170</PinX>
+						<PinY Unit="MM">4.084495479218129</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="13" UniqueID="{008B7DEC-996F-4DF7-9DB1-6FD119ACE424}" Name="Sheet.13" NameU="Sheet.13">
+					<XForm>
+						<PinX Unit="MM">19.527559055118108</PinX>
+						<PinY Unit="MM">18.108048942192717</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+		<Page ID="7" Name="Моделирование" NameU="Моделирование">
+			<Shapes>
+				<Shape ID="1" UniqueID="{C1C2B576-C0C4-49C3-98F3-C453A3D39385}" Name="Sheet.1" NameU="Sheet.1">
+					<Text>Моделирование изображений поверхности</Text>
+					<XForm>
+						<PinX Unit="MM">15.748031496062991</PinX>
+						<PinY Unit="MM">22.047244094488185</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="12" UniqueID="{D6CB1EB6-39E0-4ABB-9459-053D532DC217}" Name="Sheet.12" NameU="Sheet.12">
+					<XForm>
+						<PinX Unit="MM">27.207939943255830</PinX>
+						<PinY Unit="MM">18.322752677456094</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="31" UniqueID="{4BCE82F3-80F0-4263-81CE-D35A3AE1A5F4}" Name="Sheet.31" NameU="Sheet.31">
+					<Text>10</Text>
+					<XForm>
+						<PinX Unit="MM">23.939748405175457</PinX>
+						<PinY Unit="MM">17.100323670756055</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="33" UniqueID="{006F0165-82B3-48F4-9E9B-AED61AA37AA1}" Name="Sheet.33" NameU="Sheet.33">
+					<Text>5</Text>
+					<XForm>
+						<PinX Unit="MM">25.827939020155931</PinX>
+						<PinY Unit="MM">17.100323670756055</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="35" UniqueID="{F6CC1774-D340-46D7-98CB-C1F406AFB10A}" Name="Sheet.35" NameU="Sheet.35">
+					<Text>0</Text>
+					<XForm>
+						<PinX Unit="MM">27.674357034393292</PinX>
+						<PinY Unit="MM">17.100323670756055</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="36" UniqueID="{448C4591-90B3-4878-9455-78B581F6E8B9}" Name="Sheet.36" NameU="Sheet.36">
+					<Text>5</Text>
+					<XForm>
+						<PinX Unit="MM">29.594631769200145</PinX>
+						<PinY Unit="MM">17.100323670756055</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="37" UniqueID="{C1A22C14-A3FE-4368-A279-B9B6057B2A37}" Name="Sheet.37" NameU="Sheet.37">
+					<Text>10</Text>
+					<XForm>
+						<PinX Unit="MM">31.510062263548630</PinX>
+						<PinY Unit="MM">17.100323670756055</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="38" UniqueID="{7EBC4DDB-44E7-4FC6-AABB-DC9707A76FE6}" Name="Sheet.38" NameU="Sheet.38">
+					<Text>0</Text>
+					<XForm>
+						<PinX Unit="MM">23.667629943498220</PinX>
+						<PinY Unit="MM">17.248496883689395</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="39" UniqueID="{75FE137D-91F6-4854-B4EF-84AFC820F07D}" Name="Sheet.39" NameU="Sheet.39">
+					<Text>0.5</Text>
+					<XForm>
+						<PinX Unit="MM">23.568042682098802</PinX>
+						<PinY Unit="MM">18.389430623276098</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="40" UniqueID="{C39DAB2A-CA79-4394-98F4-86F9CDDE381F}" Name="Sheet.40" NameU="Sheet.40">
+					<Text>1</Text>
+					<XForm>
+						<PinX Unit="MM">23.667629943498220</PinX>
+						<PinY Unit="MM">19.545181684156137</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="14" UniqueID="{053A9AAF-5744-4463-9A66-B7A1437F767C}" Name="Sheet.14" NameU="Sheet.14">
+					<XForm>
+						<PinX Unit="MM">16.259842519685041</PinX>
+						<PinY Unit="MM">18.232827939600377</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="73" UniqueID="{FC1E4015-37D5-4A4D-AAF4-517CA4E029FD}" Name="Sheet.73" NameU="Sheet.73">
+					<Text>0</Text>
+					<XForm>
+						<PinX Unit="MM">11.889986946102708</PinX>
+						<PinY Unit="MM">17.174645825790289</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="74" UniqueID="{5C12EC28-F8FD-49E5-BCE0-1F91F1882537}" Name="Sheet.74" NameU="Sheet.74">
+					<Text>20</Text>
+					<XForm>
+						<PinX Unit="MM">12.657550942754241</PinX>
+						<PinY Unit="MM">17.174645825790289</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="75" UniqueID="{F53D9B19-9912-45EF-85A7-29DCE701AA1C}" Name="Sheet.75" NameU="Sheet.75">
+					<Text>40</Text>
+					<XForm>
+						<PinX Unit="MM">13.406585874107462</PinX>
+						<PinY Unit="MM">17.174645825790289</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="76" UniqueID="{B1FAF0DD-8E57-437F-BDB0-09999B383A7C}" Name="Sheet.76" NameU="Sheet.76">
+					<Text>60</Text>
+					<XForm>
+						<PinX Unit="MM">14.155620805460682</PinX>
+						<PinY Unit="MM">17.174645825790289</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="77" UniqueID="{CEDA5124-1901-42C9-AAB5-C8F81358B502}" Name="Sheet.77" NameU="Sheet.77">
+					<Text>80</Text>
+					<XForm>
+						<PinX Unit="MM">14.936529563679999</PinX>
+						<PinY Unit="MM">17.174645825790289</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="78" UniqueID="{AFC7F8C2-B2CA-4BE9-810F-80E44D206D49}" Name="Sheet.78" NameU="Sheet.78">
+					<Text>100</Text>
+					<XForm>
+						<PinX Unit="MM">15.688156646898488</PinX>
+						<PinY Unit="MM">17.174645825790289</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="79" UniqueID="{0E622E84-59BB-4B61-9A64-76FC60D49796}" Name="Sheet.79" NameU="Sheet.79">
+					<Text>120</Text>
+					<XForm>
+						<PinX Unit="MM">16.453128491684755</PinX>
+						<PinY Unit="MM">17.174645825790289</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="80" UniqueID="{DEF32B79-1F4D-4CA0-8EAD-5A83083B6713}" Name="Sheet.80" NameU="Sheet.80">
+					<Text>140</Text>
+					<XForm>
+						<PinX Unit="MM">17.218100336471025</PinX>
+						<PinY Unit="MM">17.174645825790289</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="81" UniqueID="{F45F7E44-17AA-49E2-9194-3961ED0EAD6E}" Name="Sheet.81" NameU="Sheet.81">
+					<Text>160</Text>
+					<XForm>
+						<PinX Unit="MM">17.967135267824247</PinX>
+						<PinY Unit="MM">17.174645825790289</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="82" UniqueID="{C84458E1-6FD2-4C6F-AB5D-91747DC75F8F}" Name="Sheet.82" NameU="Sheet.82">
+					<Text>180</Text>
+					<XForm>
+						<PinX Unit="MM">18.732107112610514</PinX>
+						<PinY Unit="MM">17.174645825790289</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="83" UniqueID="{49F32C3D-2427-47E6-9123-ADD4C5F39AD2}" Name="Sheet.83" NameU="Sheet.83">
+					<Text>200</Text>
+					<XForm>
+						<PinX Unit="MM">19.481142043963736</PinX>
+						<PinY Unit="MM">17.174645825790289</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="84" UniqueID="{051C58A5-FB20-40F0-B585-65F0A22F5944}" Name="Sheet.84" NameU="Sheet.84">
+					<Text>220</Text>
+					<XForm>
+						<PinX Unit="MM">20.262050802183055</PinX>
+						<PinY Unit="MM">17.174645825790289</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="85" UniqueID="{A9B4F314-3886-42AB-A2D3-BC32F3F2A46D}" Name="Sheet.85" NameU="Sheet.85">
+					<Text>240</Text>
+					<XForm>
+						<PinX Unit="MM">21.011085733536277</PinX>
+						<PinY Unit="MM">17.174645825790289</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="86" UniqueID="{39147B45-03E1-451F-B0EE-70C82EAAAACC}" Name="Sheet.86" NameU="Sheet.86">
+					<Text>0.1</Text>
+					<XForm>
+						<PinX Unit="MM">11.678726842554466</PinX>
+						<PinY Unit="MM">18.369914333268834</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="87" UniqueID="{DF6144B6-C7B9-46D4-9DEE-E412FAE25E23}" Name="Sheet.87" NameU="Sheet.87">
+					<Text>0.2</Text>
+					<XForm>
+						<PinX Unit="MM">11.678726842554466</PinX>
+						<PinY Unit="MM">19.437687533283004</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="91" UniqueID="{F1FD74D3-65D0-4C17-8D9C-F81746BFABA7}" Name="Sheet.91" NameU="Sheet.91">
+					<Text>sw</Text>
+					<XForm>
+						<PinX Unit="MM">11.246235376958701</PinX>
+						<PinY Unit="MM">18.645622855620253</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="92" UniqueID="{63735B06-E67B-4568-9922-159BE1B2F914}" Name="Sheet.92" NameU="Sheet.92">
+					<Text>w</Text>
+					<XForm>
+						<PinX Unit="MM">11.411974009565863</PinX>
+						<PinY Unit="MM">18.604185346588540</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="95" UniqueID="{7CF6C507-36EE-4289-A2EC-72E941AC2115}" Name="Sheet.95" NameU="Sheet.95">
+					<Text>w</Text>
+					<XForm>
+						<PinX Unit="MM">16.306999910895751</PinX>
+						<PinY Unit="MM">16.876625464552003</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="152" UniqueID="{10C7525C-3B41-4137-A535-60B71D50C4BF}" Name="Sheet.152" NameU="Sheet.152">
+					<XForm>
+						<PinX Unit="MM">5.314960629921260</PinX>
+						<PinY Unit="MM">18.367957130973469</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="128" UniqueID="{0367C4DE-894E-46C7-8699-48E3E377317C}" Name="Sheet.128" NameU="Sheet.128">
+					<Text>0</Text>
+					<XForm>
+						<PinX Unit="MM">1.241828479128984</PinX>
+						<PinY Unit="MM">17.150940682369317</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="129" UniqueID="{0B79249B-BCA0-4F09-AB68-5808B99D1502}" Name="Sheet.129" NameU="Sheet.129">
+					<Text>50</Text>
+					<XForm>
+						<PinX Unit="MM">2.034121391749836</PinX>
+						<PinY Unit="MM">17.150940682369317</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="130" UniqueID="{77F99E2A-638F-4F6F-9D3A-33932E4F2700}" Name="Sheet.130" NameU="Sheet.130">
+					<Text>100</Text>
+					<XForm>
+						<PinX Unit="MM">2.840594055513427</PinX>
+						<PinY Unit="MM">17.150940682369317</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="131" UniqueID="{9A692534-55C6-4BF0-B84B-7BD2734F7C93}" Name="Sheet.131" NameU="Sheet.131">
+					<Text>150</Text>
+					<XForm>
+						<PinX Unit="MM">3.620480368364035</PinX>
+						<PinY Unit="MM">17.150940682369317</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="132" UniqueID="{C36A9E68-AA38-468D-9B7C-85F75320E684}" Name="Sheet.132" NameU="Sheet.132">
+					<Text>200</Text>
+					<XForm>
+						<PinX Unit="MM">4.428726183500118</PinX>
+						<PinY Unit="MM">17.150940682369317</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="133" UniqueID="{DA09963C-CF51-4C13-8686-84168F4D7014}" Name="Sheet.133" NameU="Sheet.133">
+					<Text>250</Text>
+					<XForm>
+						<PinX Unit="MM">5.208612496350725</PinX>
+						<PinY Unit="MM">17.150940682369317</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="134" UniqueID="{270CD4FC-B941-4310-B499-1751CD416D84}" Name="Sheet.134" NameU="Sheet.134">
+					<Text>300</Text>
+					<XForm>
+						<PinX Unit="MM">6.016858311486809</PinX>
+						<PinY Unit="MM">17.150940682369317</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="135" UniqueID="{496C1440-F4A7-4D4E-BB46-850A52293B49}" Name="Sheet.135" NameU="Sheet.135">
+					<Text>350</Text>
+					<XForm>
+						<PinX Unit="MM">6.796744624337414</PinX>
+						<PinY Unit="MM">17.150940682369317</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="136" UniqueID="{046F9326-93B7-479A-9B33-C7362A826E0B}" Name="Sheet.136" NameU="Sheet.136">
+					<Text>400</Text>
+					<XForm>
+						<PinX Unit="MM">7.604990439473500</PinX>
+						<PinY Unit="MM">17.150940682369317</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="137" UniqueID="{EC28A1EF-BADB-48B0-9659-5F887C8DA158}" Name="Sheet.137" NameU="Sheet.137">
+					<Text>450</Text>
+					<XForm>
+						<PinX Unit="MM">8.384876752324106</PinX>
+						<PinY Unit="MM">17.150940682369317</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="138" UniqueID="{1AAA7D2A-4499-4B6A-BF65-BD2200A3FFBB}" Name="Sheet.138" NameU="Sheet.138">
+					<Text>500</Text>
+					<XForm>
+						<PinX Unit="MM">9.193122567460190</PinX>
+						<PinY Unit="MM">17.150940682369317</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="139" UniqueID="{1BBC144E-7C9C-4D7B-A22E-EFA556334F9A}" Name="Sheet.139" NameU="Sheet.139">
+					<Text>550</Text>
+					<XForm>
+						<PinX Unit="MM">9.987188631453535</PinX>
+						<PinY Unit="MM">17.150940682369317</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="140" UniqueID="{346E9D9B-73AC-4024-A829-A6FCC87E23AC}" Name="Sheet.140" NameU="Sheet.140">
+					<Text>1</Text>
+					<XForm>
+						<PinX Unit="MM">1.100030967701601</PinX>
+						<PinY Unit="MM">17.284312347969777</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="142" UniqueID="{7F7A340C-47E6-4408-AB6A-EABAB2147786}" Name="Sheet.142" NameU="Sheet.142">
+					<Text>0</Text>
+					<XForm>
+						<PinX Unit="MM">1.114210718844341</PinX>
+						<PinY Unit="MM">18.051199425172385</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="143" UniqueID="{7F4F4354-5770-418D-AA60-5302E11EC5AF}" Name="Sheet.143" NameU="Sheet.143">
+					<Text>1</Text>
+					<XForm>
+						<PinX Unit="MM">1.114210718844341</PinX>
+						<PinY Unit="MM">18.801415044174945</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="144" UniqueID="{D63EC7E9-9054-49A0-BEBC-0476294D3974}" Name="Sheet.144" NameU="Sheet.144">
+					<Text>2</Text>
+					<XForm>
+						<PinX Unit="MM">1.114210718844341</PinX>
+						<PinY Unit="MM">19.584973579577614</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="148" UniqueID="{9D42A31A-AB59-4ABA-B73B-4EEF78053B70}" Name="Sheet.148" NameU="Sheet.148">
+					<Text>s</Text>
+					<XForm>
+						<PinX Unit="MM">0.648546924763581</PinX>
+						<PinY Unit="MM">18.451314421973752</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="149" UniqueID="{CB0C1B46-11C8-4AE2-B580-692D56B7122E}" Name="Sheet.149" NameU="Sheet.149">
+					<Text>t</Text>
+					<XForm>
+						<PinX Unit="MM">0.710980165290265</PinX>
+						<PinY Unit="MM">18.412970151843041</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="150" UniqueID="{C81EB070-E5B5-411A-8428-7F75E7E8C452}" Name="Sheet.150" NameU="Sheet.150">
+					<Text></Text>
+					<XForm>
+						<PinX Unit="MM">0.604465122913516</PinX>
+						<PinY Unit="MM">18.447981400229970</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="151" UniqueID="{A676F95A-E6AA-452F-ABB3-3F13A286AF0A}" Name="Sheet.151" NameU="Sheet.151">
+					<Text></Text>
+					<XForm>
+						<PinX Unit="MM">0.774622136626376</PinX>
+						<PinY Unit="MM">18.447981400229970</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="156" UniqueID="{7449C69D-8C06-4598-BAEC-ED04926A41BA}" Name="Sheet.156" NameU="Sheet.156">
+					<XForm>
+						<PinX Unit="MM">6.397637795275593</PinX>
+						<PinY Unit="MM">4.179030069214450</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="153" UniqueID="{1678915A-C603-49E6-B1E2-45AE8700C415}" Name="Sheet.153" NameU="Sheet.153">
+					<Text>Принимаемый антенной сигнал и соответствующее ему изображений зондируемой поверхности
+</Text>
+					<XForm>
+						<PinX Unit="MM">6.397637795275593</PinX>
+						<PinY Unit="MM">6.340343602995832</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="157" UniqueID="{0644F972-F204-4A34-8E0E-50806E3200AE}" Name="Sheet.157" NameU="Sheet.157">
+					<XForm>
+						<PinX Unit="MM">20.867421259842516</PinX>
+						<PinY Unit="MM">4.666646458266738</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="2" UniqueID="{7B82C70A-48EF-4A48-8A65-90D619BBD560}" Name="Sheet.2" NameU="Sheet.2">
+					<Text>Излучаемый сигнал, его  спектр  и нормированная автокорреляционная функция</Text>
+					<XForm>
+						<PinX Unit="MM">13.188976377952759</PinX>
+						<PinY Unit="MM">20.078740157480315</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="8" UniqueID="{48663AE6-A758-4CE2-9F7B-5D3B1A1AE4DF}" Name="Sheet.8" NameU="Sheet.8">
+					<XForm>
+						<PinX Unit="MM">15.699507874015747</PinX>
+						<PinY Unit="MM">11.748825783770315</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="6" UniqueID="{D0D4CCC8-71B2-479B-B602-1CF5E8368D67}" Name="Sheet.6" NameU="Sheet.6">
+					<Text>Сечения удельной ЭПР  поверхности и объектов</Text>
+					<XForm>
+						<PinX Unit="MM">16.108078517004884</PinX>
+						<PinY Unit="MM">12.005117185445688</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="4" UniqueID="{84AF2F59-A081-4B96-BA16-5AFC2EFDA7E1}" Name="Sheet.4" NameU="Sheet.4">
+					<XForm>
+						<PinX Unit="MM">5.620767716535431</PinX>
+						<PinY Unit="MM">9.841457864019802</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="11" UniqueID="{F6705648-7F56-429D-B9AC-44BF50328D2D}" Name="Sheet.11" NameU="Sheet.11">
+					<XForm>
+						<PinX Unit="MM">26.579992923540388</PinX>
+						<PinY Unit="MM">14.095450568678913</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="10" UniqueID="{E59D5732-C3B5-40C5-BC99-D3C3C8C97C45}" Name="Sheet.10" NameU="Sheet.10">
+					<XForm>
+						<PinX Unit="MM">26.959350393700788</PinX>
+						<PinY Unit="MM">9.704899387576555</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="159" UniqueID="{A5BE4DA3-AA74-4A28-835D-9AFA0BBDD983}" Name="Sheet.159" NameU="Sheet.159">
+					<Text>Модели объектов и поверхности</Text>
+					<XForm>
+						<PinX Unit="MM">5.876452573008111</PinX>
+						<PinY Unit="MM">16.396544181977255</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="160" UniqueID="{571FF1F4-32B9-42E6-97BC-37A5FBAA7EE3}" Name="Sheet.160" NameU="Sheet.160">
+					<Text>Спектры сигналов</Text>
+					<XForm>
+						<PinX Unit="MM">20.669291338582674</PinX>
+						<PinY Unit="MM">1.910740946455717</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="9" UniqueID="{1503A436-BE3E-4AED-A428-BC0AE2D3AA08}" Name="Sheet.9" NameU="Sheet.9">
+					<XForm>
+						<PinX Unit="MM">5.511811023622045</PinX>
+						<PinY Unit="MM">13.786766835081181</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+		<Page ID="10" Name="Обнаружение" NameU="Обнаружение">
+			<Shapes>
+				<Shape ID="1" UniqueID="{BACD349A-7A98-4C10-908E-D01354595AA9}" Name="Sheet.1" NameU="Sheet.1">
+					<Text>Обнаружение объектов на фоне мешающих  
+отражений от подстилающей поверхности</Text>
+					<XForm>
+						<PinX Unit="MM">16.535433070866141</PinX>
+						<PinY Unit="MM">22.069143700787400</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="2" UniqueID="{7887F6F0-DE27-4D21-8D99-B7424B41116D}" Name="Sheet.2" NameU="Sheet.2">
+					<XForm>
+						<PinX Unit="MM">5.583562992125984</PinX>
+						<PinY Unit="MM">19.411964516629325</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="4" UniqueID="{0891BEE2-4B69-4D14-A0B2-597275DA2127}" Name="Sheet.4" NameU="Sheet.4">
+					<XForm>
+						<PinX Unit="MM">14.694881889763776</PinX>
+						<PinY Unit="MM">19.389295606577935</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="5" UniqueID="{294E55C7-AD7A-4F5A-8898-E083E3591FAD}" Name="Sheet.5" NameU="Sheet.5">
+					<XForm>
+						<PinX Unit="MM">15.131889763779521</PinX>
+						<PinY Unit="MM">15.853937007874011</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="3" UniqueID="{0568FC43-E7A0-4CA5-9773-F6979E1B4429}" Name="Sheet.3" NameU="Sheet.3">
+					<XForm>
+						<PinX Unit="MM">6.125787401574803</PinX>
+						<PinY Unit="MM">15.725984251968502</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="7" UniqueID="{435DCBAF-7E3D-4DEB-BB17-9BC87A78CCB0}" Name="Sheet.7" NameU="Sheet.7">
+					<XForm>
+						<PinX Unit="MM">23.031496062992126</PinX>
+						<PinY Unit="MM">19.334191083555154</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="8" UniqueID="{C2468963-5001-4C18-9CE7-17F1DC2AFB95}" Name="Sheet.8" NameU="Sheet.8">
+					<XForm>
+						<PinX Unit="MM">23.803346456692907</PinX>
+						<PinY Unit="MM">16.005063835885760</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="9" UniqueID="{55ED02A7-482B-4F65-B98A-42F593B7A26B}" Name="Sheet.9" NameU="Sheet.9">
+					<XForm>
+						<PinX Unit="MM">4.660039370078742</PinX>
+						<PinY Unit="MM">11.499396341063784</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="10" UniqueID="{A362C651-2CA2-4101-B71E-9A5C8C2991CD}" Name="Sheet.10" NameU="Sheet.10">
+					<XForm>
+						<PinX Unit="MM">9.309448818897637</PinX>
+						<PinY Unit="MM">11.499396341063784</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="11" UniqueID="{5BA30290-73BB-4B9D-9143-4A25319816D3}" Name="Sheet.11" NameU="Sheet.11">
+					<XForm>
+						<PinX Unit="MM">6.465748031496061</PinX>
+						<PinY Unit="MM">7.987992125984251</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="12" UniqueID="{A382B76A-7DA5-4A7A-9608-0362C7CDC30B}" Name="Sheet.12" NameU="Sheet.12">
+					<XForm>
+						<PinX Unit="MM">17.085629921259837</PinX>
+						<PinY Unit="MM">11.520459333189770</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="13" UniqueID="{8E0DCA03-239F-4C10-B5F0-973D07FF5EF5}" Name="Sheet.13" NameU="Sheet.13">
+					<XForm>
+						<PinX Unit="MM">24.644685039370074</PinX>
+						<PinY Unit="MM">11.520459333189770</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="14" UniqueID="{F411E47A-005F-481A-BBE1-9BBFDE9A5D0D}" Name="Sheet.14" NameU="Sheet.14">
+					<XForm>
+						<PinX Unit="MM">17.165354330708659</PinX>
+						<PinY Unit="MM">8.662985572106697</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="15" UniqueID="{DC428FB1-C798-44A4-AA63-31AD854341DC}" Name="Sheet.15" NameU="Sheet.15">
+					<XForm>
+						<PinX Unit="MM">25.246850393700775</PinX>
+						<PinY Unit="MM">8.692112876496859</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="17" UniqueID="{A777A4F6-9C6B-4A65-9A27-F4A56262DF13}" Name="Sheet.17" NameU="Sheet.17">
+					<XForm>
+						<PinX Unit="MM">3.346456692913387</PinX>
+						<PinY Unit="MM">4.960826771653544</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="18" UniqueID="{9774C524-FC24-49F5-BAB5-08E032E01AB7}" Name="Sheet.18" NameU="Sheet.18">
+					<XForm>
+						<PinX Unit="MM">8.192716535433071</PinX>
+						<PinY Unit="MM">4.960826771653543</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="19" UniqueID="{760BE8E6-F890-4222-8F1D-C5CD3423A911}" Name="Sheet.19" NameU="Sheet.19">
+					<XForm>
+						<PinX Unit="MM">5.743602362204725</PinX>
+						<PinY Unit="MM">2.114209097902279</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="20" UniqueID="{0D08B7A7-6C4E-4BF0-BB9A-008066C9BC6E}" Name="Dynamic connector" NameU="Dynamic connector" Master="2">
+					<XForm>
+						<PinX Unit="MM">16.043307086614170</PinX>
+						<PinY Unit="MM">6.594488188976378</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="21" UniqueID="{AB1FA3A8-765B-49FE-8431-954DE5FB9B02}" Name="Dynamic connector.21" NameU="Dynamic connector.21" Master="2">
+					<XForm>
+						<PinX Unit="MM">15.649606299212598</PinX>
+						<PinY Unit="MM">13.681102362204722</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="6" UniqueID="{D6860F5E-44DA-4A19-A2B2-14A8E978FC7F}" Name="Sheet.6" NameU="Sheet.6">
+					<XForm>
+						<PinX Unit="MM">30.196850393700792</PinX>
+						<PinY Unit="MM">19.087715642349995</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="16" UniqueID="{F8FECADF-B766-4F57-90B8-8C90D701611F}" Name="Sheet.16" NameU="Sheet.16">
+					<XForm>
+						<PinX Unit="MM">30.590551181102363</PinX>
+						<PinY Unit="MM">11.456692913385826</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="22" UniqueID="{2E140021-68F4-4FA9-BBDF-51A7EEA82B50}" Name="Sheet.22" NameU="Sheet.22">
+					<XForm>
+						<PinX Unit="MM">13.581692913385826</PinX>
+						<PinY Unit="MM">4.981889763779527</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="23" UniqueID="{96253619-42EB-4F11-80A5-E10ED80CB57D}" Name="Sheet.23" NameU="Sheet.23">
+					<XForm>
+						<PinX Unit="MM">18.701771653543307</PinX>
+						<PinY Unit="MM">4.921259842519684</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="24" UniqueID="{A8ECF939-467B-4D32-BDA3-7390E235C9FB}" Name="Sheet.24" NameU="Sheet.24">
+					<XForm>
+						<PinX Unit="MM">15.774606299212600</PinX>
+						<PinY Unit="MM">2.061434473532106</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="26" UniqueID="{C2D5EB00-4801-4DCE-BE73-D072763A8F10}" Name="Sheet.26" NameU="Sheet.26">
+					<Text>Убираем поверхность</Text>
+					<XForm>
+						<PinX Unit="MM">24.311023622047248</PinX>
+						<PinY Unit="MM">6.220472440944882</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="27" UniqueID="{7C1A8D6A-D58E-45F0-96A7-DF54C06AC9E0}" Name="Sheet.27" NameU="Sheet.27">
+					<XForm>
+						<PinX Unit="MM">21.181102362204726</PinX>
+						<PinY Unit="MM">2.112404530128902</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="28" UniqueID="{26E95A00-5B1F-4283-AD00-FA7A86F1D176}" Name="Sheet.28" NameU="Sheet.28">
+					<XForm>
+						<PinX Unit="MM">25.275590551181104</PinX>
+						<PinY Unit="MM">4.881447929599354</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="29" UniqueID="{F2E33581-EC32-4262-BD79-DA2F116E3468}" Name="Sheet.29" NameU="Sheet.29">
+					<XForm>
+						<PinX Unit="MM">26.837434383202098</PinX>
+						<PinY Unit="MM">2.045778175009739</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="25" UniqueID="{7190DFA7-1444-4524-9D17-FCE92511E626}" Name="Sheet.25" NameU="Sheet.25">
+					<XForm>
+						<PinX Unit="MM">30.156102362204724</PinX>
+						<PinY Unit="MM">4.863976377952755</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="30" UniqueID="{A89BD994-07F9-45C2-8708-D626D6996056}" Name="Sheet.30" NameU="Sheet.30">
+					<XForm>
+						<PinX Unit="MM">31.338582677165352</PinX>
+						<PinY Unit="MM">2.204135409354836</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="31" UniqueID="{2137746B-6283-4761-95FD-8599697AC2D6}" Name="Sheet.31" NameU="Sheet.31">
+					<Text>Сигнал + БШ</Text>
+					<XForm>
+						<PinX Unit="MM">2.362204724409389</PinX>
+						<PinY Unit="MM">21.170791151106116</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="32" UniqueID="{8CA8D0DA-9965-4593-A890-DC95454406F4}" Name="Sheet.32" NameU="Sheet.32">
+					<Text>Сигнал + поверхность+БШ</Text>
+					<XForm>
+						<PinX Unit="MM">2.992125984252028</PinX>
+						<PinY Unit="MM">12.992125984251965</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+		<Page ID="9" Name="Результаты обработки" NameU="Результаты обработки">
+			<Shapes>
+				<Shape ID="1" UniqueID="{2FA660F1-9586-44F4-AC7D-0DB307A633A3}" Name="Sheet.1" NameU="Sheet.1">
+					<Text>Оконтуривание  отметок      от объектов. Обнаружение     движущихся объектов.</Text>
+					<XForm>
+						<PinX Unit="MM">17.273622047244100</PinX>
+						<PinY Unit="MM">14.665354330708659</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="2" UniqueID="{5B6B29F5-5438-4499-B0FE-C2A71D899A4E}" Name="Sheet.2" NameU="Sheet.2">
+					<Text>Группа элементов изображения 
+размером 2x2</Text>
+					<XForm>
+						<PinX Unit="MM">2.136328200884534</PinX>
+						<PinY Unit="MM">11.246000369787160</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="3" UniqueID="{A7F736B7-E924-4F3C-995C-1FCC0F78BB45}" Name="Sheet.3" NameU="Sheet.3">
+					<XForm>
+						<PinX Unit="MM">2.013376313282051</PinX>
+						<PinY Unit="MM">12.974862635525710</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="4" UniqueID="{9F661D4D-6AEB-4395-8076-CFE48B7F9AEB}" Name="Sheet.4" NameU="Sheet.4">
+					<XForm>
+						<PinX Unit="MM">6.923803268708881</PinX>
+						<PinY Unit="MM">13.501844492555765</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="5" UniqueID="{6924D79F-3000-4306-907A-C8AAC74B33D9}" Name="Sheet.5" NameU="Sheet.5">
+					<Text>Подавление              подстилающей                   поверхности</Text>
+					<XForm>
+						<PinX Unit="MM">18.208661417322833</PinX>
+						<PinY Unit="MM">22.637795275590548</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="67" UniqueID="{76CC9A63-833E-4401-8603-43FA6D3E43D2}" Name="Sheet.67" NameU="Sheet.67">
+					<XForm>
+						<PinX Unit="MM">30.495260395648227</PinX>
+						<PinY Unit="MM">9.869022184423450</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="56" UniqueID="{0F70850A-DD23-41CC-84DE-A11B5DFA575E}" Name="Sheet.56" NameU="Sheet.56">
+					<XForm>
+						<PinX Unit="MM">30.323981944102073</PinX>
+						<PinY Unit="MM">12.620853494120203</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="90" UniqueID="{BF998FEE-196D-4107-B1E6-54212DA98747}" Name="Sheet.90" NameU="Sheet.90">
+					<XForm>
+						<PinX Unit="MM">30.497583260443072</PinX>
+						<PinY Unit="MM">5.927940108293432</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="76" UniqueID="{844EA3AB-B219-4C73-A65B-E2EE38B0B495}" Name="Sheet.76" NameU="Sheet.76">
+					<XForm>
+						<PinX Unit="MM">25.408774153664524</PinX>
+						<PinY Unit="MM">2.539658054904797</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="82" UniqueID="{D4D2C51A-41C8-4BA5-8C40-69B74DAE0FD5}" Name="Sheet.82" NameU="Sheet.82">
+					<XForm>
+						<PinX Unit="MM">30.491427042807189</PinX>
+						<PinY Unit="MM">2.539658054904797</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="10" UniqueID="{60C0C2DA-3941-47C8-A5C9-347B9FCFE666}" Name="Sheet.10" NameU="Sheet.10">
+					<Text>Т2-T1</Text>
+					<XForm>
+						<PinX Unit="MM">28.996062992125985</PinX>
+						<PinY Unit="MM">13.346456692913385</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="15" UniqueID="{2D8D9E8C-BAFF-4603-B35D-730B270ACDBF}" Name="Sheet.15" NameU="Sheet.15">
+					<Text>Т4-T1</Text>
+					<XForm>
+						<PinX Unit="MM">29.035433070866141</PinX>
+						<PinY Unit="MM">10.656167979002626</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="17" UniqueID="{891F3C98-FA9D-4B7B-84AD-C11CF139EE37}" Name="Sheet.17" NameU="Sheet.17">
+					<Text>Т25</Text>
+					<XForm>
+						<PinX Unit="MM">27.322834645669293</PinX>
+						<PinY Unit="MM">3.406586975014190</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="19" UniqueID="{2799E85E-1978-42B4-B16F-8E61301FED57}" Name="Sheet.19" NameU="Sheet.19">
+					<Text>Т15-T1</Text>
+					<XForm>
+						<PinX Unit="MM">29.153543307086615</PinX>
+						<PinY Unit="MM">6.797900262467193</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="20" UniqueID="{3A73B628-49E6-404F-935A-123BE456D111}" Name="Sheet.20" NameU="Sheet.20">
+					<Text>Т25-T1</Text>
+					<XForm>
+						<PinX Unit="MM">29.192913385826770</PinX>
+						<PinY Unit="MM">3.406586975014190</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="22" UniqueID="{9F5A2F55-612A-4F06-93C2-A020BC27E470}" Name="Sheet.22" NameU="Sheet.22">
+					<Text>Результат череспериодного вычитания</Text>
+					<XForm>
+						<PinX Unit="MM">30.590551181102363</PinX>
+						<PinY Unit="MM">0.866141732283465</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="23" UniqueID="{2C92EE2F-6F52-4E35-968B-BD3CF71460E0}" Name="Sheet.23" NameU="Sheet.23">
+					<Text>Результат череспериодного вычитания</Text>
+					<XForm>
+						<PinX Unit="MM">30.590551181102363</PinX>
+						<PinY Unit="MM">4.173228346456694</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="24" UniqueID="{2EAE4E61-7527-408A-8B67-457F90EAECA4}" Name="Sheet.24" NameU="Sheet.24">
+					<Text>Результат череспериодного вычитания</Text>
+					<XForm>
+						<PinX Unit="MM">30.590551181102363</PinX>
+						<PinY Unit="MM">8.425196850393700</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="25" UniqueID="{B169AD31-F878-4A23-945F-397FE9EBBAC3}" Name="Sheet.25" NameU="Sheet.25">
+					<XForm>
+						<PinX Unit="MM">16.732283464566930</PinX>
+						<PinY Unit="MM">12.007874015748033</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="27" UniqueID="{0180F45A-33EE-43F8-9003-233DB627A888}" Name="Sheet.27" NameU="Sheet.27">
+					<Text>Устройство межпериодной обработки сигналов</Text>
+					<XForm>
+						<PinX Unit="MM">17.086614173228348</PinX>
+						<PinY Unit="MM">9.278375961814612</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="28" UniqueID="{CEB36939-04F7-4088-9FAC-A00084AB1905}" Name="Sheet.28" NameU="Sheet.28">
+					<Text>Алгоритм оконтуривания</Text>
+					<XForm>
+						<PinX Unit="MM">6.496062992125985</PinX>
+						<PinY Unit="MM">12.549333152463323</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="30" UniqueID="{F4C3F500-5487-4A37-8083-6624773A4A60}" Name="Sheet.30" NameU="Sheet.30">
+					<XForm>
+						<PinX Unit="MM">4.133858267716535</PinX>
+						<PinY Unit="MM">21.387795275590552</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="33" UniqueID="{8F86E8AE-C547-4F93-8C40-294148E42DCF}" Name="Sheet.33" NameU="Sheet.33">
+					<XForm>
+						<PinX Unit="MM">16.832677165354326</PinX>
+						<PinY Unit="MM">18.700787401574804</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="38" UniqueID="{DEF9DBE1-E883-46F5-AD82-BAC55F6E1C84}" Name="Sheet.38" NameU="Sheet.38">
+					<Text>1</Text>
+					<XForm>
+						<PinX Unit="MM">15.472440944881891</PinX>
+						<PinY Unit="MM">21.338582677165352</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="39" UniqueID="{FBB2E911-DB2E-47B8-9ACE-EFD342EAC971}" Name="Sheet.39" NameU="Sheet.39">
+					<Text>2</Text>
+					<XForm>
+						<PinX Unit="MM">16.614173228346459</PinX>
+						<PinY Unit="MM">21.279527559055115</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="40" UniqueID="{20FDEB64-FF93-41D8-818C-344AFC0A9CAC}" Name="Sheet.40" NameU="Sheet.40">
+					<Text>3</Text>
+					<XForm>
+						<PinX Unit="MM">17.440944881889763</PinX>
+						<PinY Unit="MM">21.178444881889760</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="41" UniqueID="{A2B9B3E3-2CC0-4887-AAB9-1DB4657208BF}" Name="Dynamic connector.41" NameU="Dynamic connector.41" Master="2">
+					<XForm>
+						<PinX Unit="MM">17.165354330708663</PinX>
+						<PinY Unit="MM">20.826771653543304</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="42" UniqueID="{99D93610-00D6-4E28-AA92-E6381D89DDF6}" Name="Dynamic connector.42" NameU="Dynamic connector.42" Master="2">
+					<XForm>
+						<PinX Unit="MM">16.259842519685041</PinX>
+						<PinY Unit="MM">20.708661417322830</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="43" UniqueID="{8D69993A-A465-4473-B127-32270CCF5743}" Name="Dynamic connector.43" NameU="Dynamic connector.43" Master="2">
+					<XForm>
+						<PinX Unit="MM">14.980314960629922</PinX>
+						<PinY Unit="MM">20.649606299212596</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="44" UniqueID="{5ACA1138-E723-4835-B339-5F45976D4C81}" Name="Sheet.44" NameU="Sheet.44">
+					<Text>1</Text>
+					<XForm>
+						<PinX Unit="MM">13.582677165354333</PinX>
+						<PinY Unit="MM">18.602362204724411</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="45" UniqueID="{AFB1EE28-9BB5-4A33-9A78-125D8BFCDF57}" Name="Sheet.45" NameU="Sheet.45">
+					<Text>2</Text>
+					<XForm>
+						<PinX Unit="MM">14.724409448818902</PinX>
+						<PinY Unit="MM">18.543307086614174</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="46" UniqueID="{0DA6CF60-339B-47F6-A58A-323884825214}" Name="Sheet.46" NameU="Sheet.46">
+					<Text>3</Text>
+					<XForm>
+						<PinX Unit="MM">15.551181102362206</PinX>
+						<PinY Unit="MM">18.442224409448819</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="47" UniqueID="{871D80C8-661E-4104-B41A-6C117E5E8F70}" Name="Dynamic connector.47" NameU="Dynamic connector.47" Master="2">
+					<XForm>
+						<PinX Unit="MM">15.275590551181105</PinX>
+						<PinY Unit="MM">18.090551181102363</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="48" UniqueID="{AC334DF8-9878-4D61-8EEC-8018AA0A0771}" Name="Dynamic connector.48" NameU="Dynamic connector.48" Master="2">
+					<XForm>
+						<PinX Unit="MM">14.370078740157483</PinX>
+						<PinY Unit="MM">17.972440944881889</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="49" UniqueID="{610A0506-F99C-4DAF-82A8-ED5EC76E3BA7}" Name="Dynamic connector.49" NameU="Dynamic connector.49" Master="2">
+					<XForm>
+						<PinX Unit="MM">13.090551181102363</PinX>
+						<PinY Unit="MM">17.913385826771655</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="57" UniqueID="{B9C42C54-F4DD-4F53-95E1-6E7CAF0E8963}" Name="Sheet.57" NameU="Sheet.57">
+					<XForm>
+						<PinX Unit="MM">5.433070866141732</PinX>
+						<PinY Unit="MM">19.431929834341751</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="35" UniqueID="{A147E583-118F-44CB-A9A2-F0785AF9E1DB}" Name="Sheet.35" NameU="Sheet.35">
+					<Text>1</Text>
+					<XForm>
+						<PinX Unit="MM">4.587957586238965</PinX>
+						<PinY Unit="MM">20.348401889060931</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="36" UniqueID="{11A20F9B-BD9B-43B0-993A-03600E16D8D5}" Name="Sheet.36" NameU="Sheet.36">
+					<Text>2</Text>
+					<XForm>
+						<PinX Unit="MM">6.577234644790734</PinX>
+						<PinY Unit="MM">18.226725459903289</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="37" UniqueID="{5512C945-6456-4C1F-BAA5-E2537CA485A0}" Name="Sheet.37" NameU="Sheet.37">
+					<Text>3</Text>
+					<XForm>
+						<PinX Unit="MM">9.995920699055736</PinX>
+						<PinY Unit="MM">20.282474389608101</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="58" UniqueID="{13537B4C-E987-4B3D-8F08-85950440D9D0}" Name="Sheet.58" NameU="Sheet.58">
+					<Text>Схема подавления отражений от поверхности</Text>
+					<XForm>
+						<PinX Unit="MM">5.511811023622046</PinX>
+						<PinY Unit="MM">16.692913385826770</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="61" UniqueID="{5FDA00B8-C07E-40ED-86C2-5288F8D89C59}" Name="Sheet.61" NameU="Sheet.61">
+					<XForm>
+						<PinX Unit="MM">30.011220472440943</PinX>
+						<PinY Unit="MM">20.549253460044664</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="62" UniqueID="{F7E8EB2C-C316-42F4-8167-7103D06A5470}" Name="Sheet.62" NameU="Sheet.62">
+					<Text>Подстилающая поверхность</Text>
+					<XForm>
+						<PinX Unit="MM">30.078740157480315</PinX>
+						<PinY Unit="MM">19.233269313404410</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="63" UniqueID="{0A1A7079-9359-4BE3-BF79-157A40FD532C}" Name="Sheet.63" NameU="Sheet.63">
+					<Text>Результат обработки</Text>
+					<XForm>
+						<PinX Unit="MM">27.322834645669293</PinX>
+						<PinY Unit="MM">16.180116513367246</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="66" UniqueID="{CE2DA098-3E7D-4224-ABE5-4A3152E9F8C9}" Name="Sheet.66" NameU="Sheet.66">
+					<XForm>
+						<PinX Unit="MM">31.418172313168920</PinX>
+						<PinY Unit="MM">21.149530063755357</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="68" UniqueID="{4F3189AA-017D-4F72-B55C-7F7A767EC41B}" Name="Sheet.68" NameU="Sheet.68">
+					<XForm>
+						<PinX Unit="MM">23.540696281393913</PinX>
+						<PinY Unit="MM">19.044723405392205</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="69" UniqueID="{3410020A-6298-4061-9F70-F3C35E7FCF25}" Name="Sheet.69" NameU="Sheet.69">
+					<XForm>
+						<PinX Unit="MM">5.339566929133859</PinX>
+						<PinY Unit="MM">4.316637561951781</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="70" UniqueID="{2B37FCAD-D6A1-4E06-B56A-2B4C55DDB724}" Name="Sheet.70" NameU="Sheet.70">
+					<XForm>
+						<PinX Unit="MM">7.303149606299213</PinX>
+						<PinY Unit="MM">10.539924222789772</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="7" UniqueID="{89B5B329-9E8E-49AB-AE37-58A8BDCD976C}" Name="Sheet.7" NameU="Sheet.7">
+					<Text>Результат череспериодного вычитания</Text>
+					<XForm>
+						<PinX Unit="MM">30.551181102362204</PinX>
+						<PinY Unit="MM">11.259842519685039</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="71" UniqueID="{A0EF6278-94B5-4B5C-A76F-699B1756A07F}" Name="Sheet.71" NameU="Sheet.71">
+					<XForm>
+						<PinX Unit="MM">25.393700787401578</PinX>
+						<PinY Unit="MM">12.620853494120203</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="8" UniqueID="{24961A5B-1E9D-488F-8007-340F7457E4B3}" Name="Sheet.8" NameU="Sheet.8">
+					<Text>Т1</Text>
+					<XForm>
+						<PinX Unit="MM">27.389950264469718</PinX>
+						<PinY Unit="MM">12.650918635170601</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="6" UniqueID="{C032F039-F606-4BFD-994C-0B9D8780DEF4}" Name="Sheet.6" NameU="Sheet.6">
+					<XForm>
+						<PinX Unit="MM">14.381422919133142</PinX>
+						<PinY Unit="MM">5.932014310407702</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="21" UniqueID="{48FC7DD2-CA3C-4B93-AC73-EF121C2E036D}" Name="Sheet.21" NameU="Sheet.21">
+					<Text>Т3</Text>
+					<XForm>
+						<PinX Unit="MM">16.282530877636361</PinX>
+						<PinY Unit="MM">6.010498687664043</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="77" UniqueID="{504870FF-028E-4B44-A567-2CBBEE276439}" Name="Sheet.77" NameU="Sheet.77">
+					<XForm>
+						<PinX Unit="MM">19.499533155353614</PinX>
+						<PinY Unit="MM">5.932014310407702</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="14" UniqueID="{B076A294-8A9A-4F29-9939-F0E488215EDF}" Name="Sheet.14" NameU="Sheet.14">
+					<Text>Т4</Text>
+					<XForm>
+						<PinX Unit="MM">21.415717216325962</PinX>
+						<PinY Unit="MM">6.010498687664043</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="78" UniqueID="{F8106828-656D-49ED-9F43-F7D9384A3BCA}" Name="Sheet.78" NameU="Sheet.78">
+					<XForm>
+						<PinX Unit="MM">25.507724536176717</PinX>
+						<PinY Unit="MM">9.864947982309179</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="9" UniqueID="{FCDCD6A4-B349-4463-8773-48B038E876FE}" Name="Sheet.9" NameU="Sheet.9">
+					<Text>Т2</Text>
+					<XForm>
+						<PinX Unit="MM">27.550882143219578</PinX>
+						<PinY Unit="MM">9.921259842519685</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="11" UniqueID="{8CD48238-8FE9-41E3-ACB0-C24913EAE49B}" Name="Sheet.11" NameU="Sheet.11">
+					<XForm>
+						<PinX Unit="MM">25.396749554855909</PinX>
+						<PinY Unit="MM">5.927940108293432</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="18" UniqueID="{D02C42E5-BB28-4272-8EDF-FEF0F3B4E8F6}" Name="Sheet.18" NameU="Sheet.18">
+					<Text>Т10</Text>
+					<XForm>
+						<PinX Unit="MM">27.250192023097654</PinX>
+						<PinY Unit="MM">5.963491765143291</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="12" UniqueID="{F0B927A4-E204-4299-903E-A5D3FFC753BB}" Name="Sheet.12" NameU="Sheet.12">
+					<XForm>
+						<PinX Unit="MM">19.645669291338582</PinX>
+						<PinY Unit="MM">2.539658054904797</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="13" UniqueID="{9095CF17-A0D4-442E-A5A3-A95860B048CF}" Name="Sheet.13" NameU="Sheet.13">
+					<Text>Т20</Text>
+					<XForm>
+						<PinX Unit="MM">21.614173228346459</PinX>
+						<PinY Unit="MM">2.591364305399083</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="79" UniqueID="{7AC56E83-77E2-4AE3-87F6-03CC57BA334F}" Name="Sheet.79" NameU="Sheet.79">
+					<XForm>
+						<PinX Unit="MM">14.574467185092828</PinX>
+						<PinY Unit="MM">2.536626820840428</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="16" UniqueID="{32FCA7F5-B5E6-4CB0-917E-4468250465AD}" Name="Sheet.16" NameU="Sheet.16">
+					<Text>Т15</Text>
+					<XForm>
+						<PinX Unit="MM">16.511139094595109</PinX>
+						<PinY Unit="MM">2.440944881889764</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="80" UniqueID="{B53D2FC7-F7D6-4C36-AB37-79812A41FEA8}" Name="Sheet.80" NameU="Sheet.80">
+					<Text>Результат оконтуривания </Text>
+					<XForm>
+						<PinX Unit="MM">7.165354330708661</PinX>
+						<PinY Unit="MM">8.582677165354330</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="81" UniqueID="{F91E1FDF-47F7-45BD-AA40-BCEE6A799CB4}" Name="Sheet.81" NameU="Sheet.81">
+					<Text>Результат оконтуривания </Text>
+					<XForm>
+						<PinX Unit="MM">4.921259842519685</PinX>
+						<PinY Unit="MM">1.811023622047244</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="65" UniqueID="{20EB21E5-939F-4F6E-9B00-6F85CDDE9915}" Name="Sheet.65" NameU="Sheet.65">
+					<XForm>
+						<PinX Unit="MM">25.216535433070867</PinX>
+						<PinY Unit="MM">20.534786936036667</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="59" UniqueID="{6E65122F-B281-4749-8557-3690ACBE0D72}" Name="Sheet.59" NameU="Sheet.59">
+					<XForm>
+						<PinX Unit="MM">27.323228346456695</PinX>
+						<PinY Unit="MM">17.701331198279114</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="91" UniqueID="{BD0D0474-7A34-43F6-A11D-9A44AAECE0A4}" Name="Sheet.91" NameU="Sheet.91">
+					<XForm>
+						<PinX Unit="MM">16.692913385826770</PinX>
+						<PinY Unit="MM">11.889763779527559</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+	</Pages>
+</VisioDocument>
